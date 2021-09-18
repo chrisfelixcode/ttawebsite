@@ -22,6 +22,11 @@ body{
     font-family: 'Ubuntu', sans-serif;
     background-color: var(--light-two);
     margin: 0px;
+   
+}
+
+li{
+     list-style-type: none;
 }
 
 .flex-section{
@@ -98,9 +103,21 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
+.glass-btn{
+    background-color:rgba(0, 0, 0, 0.05);
+    border: 1px solid white;
+    color: #fff;
+    padding: 18px 40px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
 #section-four{
     position: relative;
-    background-color: #ffffff;
     padding-top: 86px;
     padding-bottom: 150px;
 }
@@ -110,8 +127,8 @@ body{
     font-family: Ubuntu;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 16px;
+    font-size: 16px;
+    line-height: 150%;
     width: 80%;
 }
 
@@ -305,5 +322,171 @@ body{
 
 
 
+
+
+
+
+
+
+
+
+
+#welcome{
+  text-align: center;
+}
+
+#section-two{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#welcome h1{
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 37px;
+  color: var(--secondary);
+  margin-bottom: 10px ;
+}
+
+#welcome h2{
+    color: var(--secondary);
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#welcome p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: var(--light);
+}
+
+
+.card-list{
+    
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    background: #FFFFFF;
+    box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.03);
+    border-radius: 10px;
+    gap: 50px;
+    padding: 25px;
+    margin: 50px 100px 10px 100px;
+
+}
+
+.card-list-item{
+    position: relative;
+    width: 25%;
+    padding: 25px;
+}
+
+.card-list-item img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.card-list-item h2{
+    display: inline;
+}
+
+.card-list-item p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: var(--light);
+
+}
+
+
+#main-nav{
+    display: flex;
+    padding: 12px;
+    background-color: white;
+
+}
+
+.nav-branding{
+    width: 20%;
+    height: 55px;
+    margin-left: 20px;
+}
+
+.nav-branding img{
+    height: 115%;
+}
+
+.nav-links{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+}
+
+.nav-links a {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+
+   .slide_img_01 {
+      background: url('./AOP_3275.png') no-repeat center;
+      background-size: cover;
+      left: 0;
+    }
+
+    .slide_img_02 {
+      background: url('https://picsum.photos/2200/1800/?random') no-repeat center;
+      background-size: cover;
+      left: 100%
+    }
+
+.carousel-box{
+    background: rgba(16, 13, 4, 0.26);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
+
+.carousel-box h1{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 66px;
+    color: white;
+    margin-top: 0px;
+}
+.carousel-box .carousel-buttons{
+    width: 100%;
+}
+.carousel-box .carousel-buttons button{
+    margin: 0px 25px;
+}
+
+
+
+
+.photo_slider{
+    height: 696px;
+}
 
 

@@ -2,6 +2,7 @@
 <html>
 
 <head>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -15,6 +16,13 @@
     href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&family=Nunito:wght@200;300;600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
     rel="stylesheet">
 
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,600&family=Nunito:wght@200;300;600;700&family=Rubik:wght@600;700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+
+
+  <link rel="stylesheet" href="./plugins/carousel/styles.css">
+
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="styles2.css" />
   <title>TTA Website</title>
@@ -22,45 +30,93 @@
 </head>
 
 <body>
-  <nav>
-    <div><img src="./LOGO OF COFB1 1@2x.png" alt="" /></div>
-    <ul class="menu-links">
-      <li>Home</li>
-      <li>About us</li>
-      <li>Program</li>
-      <li>Online Giving</li>
-      <li>Resources</li>
-      <li>Contact Us</li>
-      <li class="sign-in">Sign In</li>
+  <nav id="main-nav">
+    <div class="nav-branding"> <img src="./LOGO OF COFB1 1@2x.png" alt="" /></div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Program</a></li>
+      <li><a href="#">Online Giving</a></li>
+      <li><a href="#">Resources</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Register</a></li>
+      <li><button class="primary-btn">Sign In</button></li>
     </ul>
   </nav>
-  <section>
-    <h1 class="welcome-header">Welcome To Church God Bless You</h1>
-    <p>Welcome to this great family of God where greatness shines</p>
+
+
+  <section class="photo_slider">
+    <input type="radio" name="slider" class="slide-radio1" checked id="slider_1">
+    <input type="radio" name="slider" class="slide-radio2" id="slider_2">
+    <div class="slider-pagination">
+      <label for="slider_1" class="page1"></label>
+      <label for="slider_2" class="page2"></label>
+    </div>
+    <div class="next control">
+      <label for="slider_1" class="numb1"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M298.3 256L131.1 81.9c-4.2-4.3-4.1-11.4.2-15.8l29.9-30.6c4.3-4.4 11.3-4.5 15.5-.2L380.9 248c2.2 2.2 3.2 5.2 3 8.1.1 3-.9 5.9-3 8.1L176.7 476.8c-4.2 4.3-11.2 4.2-15.5-.2L131.3 446c-4.3-4.4-4.4-11.5-.2-15.8L298.3 256z" />
+        </svg> </label>
+      <label for="slider_2" class="numb2"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M298.3 256L131.1 81.9c-4.2-4.3-4.1-11.4.2-15.8l29.9-30.6c4.3-4.4 11.3-4.5 15.5-.2L380.9 248c2.2 2.2 3.2 5.2 3 8.1.1 3-.9 5.9-3 8.1L176.7 476.8c-4.2 4.3-11.2 4.2-15.5-.2L131.3 446c-4.3-4.4-4.4-11.5-.2-15.8L298.3 256z" />
+        </svg> </label>
+    </div>
+    <div class="previous control">
+      <label for="slider_1" class="numb1"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M213.7 256L380.9 81.9c4.2-4.3 4.1-11.4-.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-.2L131.1 247.9c-2.2 2.2-3.2 5.2-3 8.1-.1 3 .9 5.9 3 8.1l204.2 212.7c4.2 4.3 11.2 4.2 15.5-.2l29.9-30.6c4.3-4.4 4.4-11.5.2-15.8L213.7 256z" />
+        </svg> </label>
+      <label for="slider_2" class="numb2"> <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+          <path
+            d="M213.7 256L380.9 81.9c4.2-4.3 4.1-11.4-.2-15.8l-29.9-30.6c-4.3-4.4-11.3-4.5-15.5-.2L131.1 247.9c-2.2 2.2-3.2 5.2-3 8.1-.1 3 .9 5.9 3 8.1l204.2 212.7c4.2 4.3 11.2 4.2 15.5-.2l29.9-30.6c4.3-4.4 4.4-11.5.2-15.8L213.7 256z" />
+        </svg> </label>
+    </div>
+    <div class="slider slide_img_01">
+      <div class="carousel-box">
+        <h1>Welcome to The Transformation Arena <br /> Youth Church</h1>
+
+        <div class="carousel-buttons">
+          <button class="primary-btn">Get Started</button>
+
+          <button class="glass-btn">Watch live</button>
+        </div>
+      </div>
+    </div>
+    <div class="slider slide_img_02"></div>
   </section>
 
-  <section>
+
+  <section id="section-two" class="container">
+
+    <div id="welcome">
+      <h1>Welcome To Church God Bless You</h1>
+      <p>Welcome to this great family of God where greatness shines</p>
+    </div>
+
     <ul class="card-list">
-      <li class="card-list-items">
+      <li class="card-list-item">
+        <img src="./Icon.png" />
         <h2>Our Mission</h2>
 
-        <p>To make heaven.</p>
-        <p>To take as many as possible with us.</p>
-        <p>To have a member of RCCG in every family of all nati</p>
+        <p>To make heaven.
+          To take as many as possible with us.
+          To have a member of RCCG in every family of all nation</p>
       </li>
-      <li class="card-list-items">
+      <li class="card-list-item">
+        <img src="./Icon.png" />
         <h2>Our Vision</h2>
-
-        <p>To make heaven.</p>
-        <p>To take as many as possible with us.</p>
-        <p>To have a member of RCCG in every family of all nati</p>
+        <p>To make heaven.
+          To take as many as possible with us.
+          To have a member of RCCG in every family of all nation</p>
       </li>
-      <li class="card-list-items">
+      <li class="card-list-item">
+        <img src="./Icon.png" />
         <h2>Our Belief</h2>
 
-        <p>To make heaven.</p>
-        <p>To take as many as possible with us.</p>
-        <p>To have a member of RCCG in every family of all nati</p>
+        <p>To make heaven.
+          To take as many as possible with us.
+          To have a member of RCCG in every family of all nation</p>
       </li>
     </ul>
   </section>
@@ -219,5 +275,7 @@
     </div>
   </section>
 </body>
+<script type="javascript" src="./plugins/carousel/index.js"></script>
+
 
 </html>
