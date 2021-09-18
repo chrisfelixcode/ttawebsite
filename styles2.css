@@ -1,0 +1,88 @@
+
+:root {
+  --primary:#E5BE57;
+  --secondary: #152C5B;
+  --light: #999999;
+}
+
+body{
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+
+.image-and-article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 25px 100px;
+
+}
+
+.image-right-border-radius{
+    width: 550px;
+    height: 550px;
+    border-radius: 0px 275px 275px 0px;
+    background-image: url("./AOP_3259\ 1.png");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.image-and-article  .item{
+    width: 45%;
+    flex-grow: 1;
+}
+
+.image-and-article h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: -0.5px;
+    color: var(--secondary);
+}
+
+.image-and-article  h3{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+.image-and-article p{
+    color: var(--light);
+    margin-right: 80px;
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.image-and-article .person-name{
+    margin-top: 60px;
+
+}
+
+.image-and-article .learn-more{
+    margin-top: 100px;
+}
+
+.primary-btn{
+    background-color: var(--primary);
+    border: 0px none;
+    color: #fff;
+    padding: 18px 40px;
+    border-radius: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: 'Ubuntu', sans-serif;
+}

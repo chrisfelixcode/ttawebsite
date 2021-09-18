@@ -1,6 +1,11 @@
-body {
-  background-color: white;
+/*body {
+  background-color: #E5E5E5;
+  width: 100%;
 }
+
+html{
+  width: 100%;
+ }
 ul.menu-links {
   display: flex;
   list-style: none;
@@ -28,12 +33,7 @@ h1 {
   display: flex;
   color: #152c5b;
 }
-p {
-  justify-content: center;
-  display: flex;
-  color: black;
-  font-size: 13px;
-}
+
 h2 {
   display: flex;
   justify-content: last baseline;
@@ -63,4 +63,4 @@ u {
 }
 .card-list-items p {
   font-size: 14px;
-}
+} */
