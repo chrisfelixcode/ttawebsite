@@ -21,10 +21,19 @@
     rel="stylesheet">
 
 
-  <link rel="stylesheet" href="./plugins/carousel/styles.css">
 
+  <link rel="stylesheet" type="text/css"
+    href="https://cdn.jsdelivr.net/gh/kenwheeler/slick@1.8.1/slick/slick-theme.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+  <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+
+  <link rel="stylesheet" href="./plugins/carousel/styles.css">
+  <link rel="stylesheet" href="./plugins/testimonial/styles.css">
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="styles2.css" />
+
   <title>The Transformation Arena</title>
 
   <link rel="icon" href="./favicon.ico" type="image/x-icon">
@@ -42,7 +51,7 @@
       <li><a href="#">Resources</a></li>
       <li><a href="#">Contact Us</a></li>
       <li><a href="#">Register</a></li>
-      <li><button class="primary-btn">Sign In</button></li>
+      <li><button class="btn primary-btn">Sign In</button></li>
     </ul>
   </nav>
 
@@ -79,13 +88,23 @@
         <h1>Welcome to The Transformation Arena <br /> Youth Church</h1>
 
         <div class="carousel-buttons">
-          <button class="primary-btn">Get Started</button>
+          <button class=" btn primary-btn">Get Started</button>
 
-          <button class="glass-btn">Watch live</button>
+          <button class="btn glass-btn">Watch live</button>
         </div>
       </div>
     </div>
-    <div class="slider slide_img_02"></div>
+    <div class="slider slide_img_02">
+      <div class="carousel-box">
+        <h1>Welcome to The Transformation Arena <br /> Youth Church</h1>
+
+        <div class="carousel-buttons">
+          <button class=" btn primary-btn">Get Started</button>
+
+          <button class="btn glass-btn">Watch live</button>
+        </div>
+      </div>
+    </div>
   </section>
 
 
@@ -158,7 +177,7 @@
         </div>
 
         <div class="learn-more">
-          <button class="primary-btn">Learn More</button>
+          <button class="btn primary-btn">Learn More</button>
         </div>
       </div>
 
@@ -181,11 +200,11 @@
         </p>
 
         <div class="learn-more">
-          <button class="primary-btn">Learn More</button>
+          <button class="btn primary-btn">Learn More</button>
         </div>
       </div>
       <div class="item cards">
-        <div class="card card-shadow">
+        <div class="card">
           <img src="./Icon.png" />
           <h2>Pray</h2>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, totam in ea minus soluta voluptatibus sint
@@ -223,10 +242,10 @@
       <h2 class="banner-heading">Join us this sunday</h2>
       <h2 class="banner-heading">Live @8am</h2>
 
-      <button class="primary-btn">Watch us live</button>
+      <button class="btn primary-btn">Watch us live</button>
     </div>
   </section>
-
+  <!-- 
   <section class="container  testimonial">
     <div class="testimonial-article">
       <h2>Testimonies from our members</h2>
@@ -276,8 +295,105 @@
       </div>
     </div>
   </section>
+
+
+ -->
+
+  <section class="container testimonial">
+
+    <div class="testimonial-article">
+      <h2>Testimonies from our members</h2>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus vitae, labore obcaecati totam quas deleniti?
+        Repudiandae id illum quam ex.
+      </p>
+      <div class="carousel-buttons">
+
+        <button class="testi-control" id="testi-prev"></button>
+        <button class="testi-control" id="testi-next"></button>
+      </div>
+    </div>
+
+
+    <div class="items">
+      <div class="testimonial-card testi-card">
+        <img class="testimonial-profile" src="./AOP_3259 1.png" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae non repudiandae ad expedita molestiae
+          quasi
+          eum eaque sint labore assumenda?</p>
+
+
+        <hr />
+        <h4>Lorem, ipsum.</h4>
+        <p>Lorem, ipsum dolor. </p>
+      </div>
+
+
+      <div class="testimonial-card testi-card">
+        <img class="testimonial-profile" src="./AOP_3259 1.png" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae non repudiandae ad expedita molestiae
+          quasi
+          eum eaque sint labore assumenda?</p>
+
+
+        <hr />
+        <h4>Lorem, ipsum.</h4>
+        <p>Lorem, ipsum dolor. </p>
+      </div>
+
+
+      <div class="testimonial-card testi-card">
+        <img class="testimonial-profile" src="./AOP_3259 1.png" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae non repudiandae ad expedita molestiae
+          quasi
+          eum eaque sint labore assumenda?</p>
+
+
+        <hr />
+        <h4>Lorem, ipsum.</h4>
+        <p>Lorem, ipsum dolor. </p>
+      </div>
+
+
+      <div class="testimonial-card testi-card">
+        <img class="testimonial-profile" src="./AOP_3259 1.png" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae non repudiandae ad expedita molestiae
+          quasi
+          eum eaque sint labore assumenda?</p>
+
+
+        <hr />
+        <h4>Lorem, ipsum.</h4>
+        <p>Lorem, ipsum dolor. </p>
+      </div>
+
+      <div class="testimonial-card testi-card">
+        <img class="testimonial-profile" src="./AOP_3259 1.png" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae non repudiandae ad expedita molestiae
+          quasi
+          eum eaque sint labore assumenda?</p>
+
+
+        <hr />
+        <h4>Lorem, ipsum.</h4>
+        <p>Lorem, ipsum dolor. </p>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
 </body>
-<script type="javascript" src="./plugins/carousel/index.js"></script>
+
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+<script type="text/javascript" src="./plugins/testimonial/index.js"></script>
+
+
 
 
 </html>

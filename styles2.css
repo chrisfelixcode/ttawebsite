@@ -92,28 +92,40 @@ li{
     margin-top: 100px;
 }
 
-.primary-btn{
-    background-color: var(--primary);
-    border: 0px none;
-    color: #fff;
+.btn{
     padding: 18px 40px;
     border-radius: 14px;
     font-size: 15px;
     font-weight: 700;
+}
+
+.primary-btn{
+    background-color: var(--primary);
+    border: 0px none;
+    color: #fff;
+
     font-family: 'Ubuntu', sans-serif;
+}
+
+.primary-btn:hover{
+    border: 1px solid var(--primary);
+    background-color: white;
+    color: var(--primary);
 }
 
 .glass-btn{
     background-color:rgba(0, 0, 0, 0.05);
     border: 1px solid white;
     color: #fff;
-    padding: 18px 40px;
-    border-radius: 14px;
-    font-size: 15px;
-    font-weight: 700;
+
     font-family: 'Ubuntu', sans-serif;
 }
 
+
+.glass-btn:hover{
+    background-color: white;
+    color: var(--primary);
+}
 
 
 #section-four{
@@ -206,7 +218,7 @@ li{
 
 }
 
-.card-shadow{
+.card:hover{
     background: #FFFFFF;
     box-shadow: 0px 25px 55px rgba(126, 126, 126, 0.15);
 }
@@ -298,14 +310,24 @@ li{
     box-shadow: 0px 67.1144px 109.061px rgba(0, 0, 0, 0.05);
     border-radius: 14px;
     padding: 30px 20px;
+    margin-top: 50px;
 }
 
 .testimonial-profile{
     position: absolute;
-    width: 15%;
-    top: -10%;
-    left: 5%;
-    border-radius: 60%;
+    width: 70px;
+    top: -35px;
+    left: 20px;
+    border-radius: 45px;
+}
+
+.testimonial-card h4{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    color: #323232;
 }
 
 .testimonial-card hr{
@@ -393,9 +415,17 @@ li{
     position: absolute;
     top: 0px;
     left: 0px;
+    
 }
 .card-list-item h2{
     display: inline;
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--secondary);
+    
 }
 
 .card-list-item p{
@@ -406,7 +436,7 @@ li{
     line-height: 16px;
     text-align: center;
     color: var(--light);
-
+    margin-top: 30px;
 }
 
 
@@ -443,6 +473,20 @@ li{
     line-height: 18px;
     color: var(--secondary);
     text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 14px;
+
+}
+
+.nav-links a:hover{
+   font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 18px;
+    color: var(--primary);
+    background: rgba(153, 153, 153, 0.13);
+    border-radius: 10px;
 }
 
 
@@ -453,7 +497,7 @@ li{
     }
 
     .slide_img_02 {
-      background: url('https://picsum.photos/2200/1800/?random') no-repeat center;
+      background: url('./AOP_0090_rcref1.jpg') no-repeat center;
       background-size: cover;
       left: 100%
     }
@@ -487,6 +531,36 @@ li{
 
 .photo_slider{
     height: 696px;
+
 }
+
+
+.testi-control{
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: unset;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+
+#testi-prev{
+    background-image: url("./back.svg");
+}
+
+#testi-prev:hover{
+    background-image: url("./back-hover.svg");
+}
+
+#testi-next{
+    background-image: url("./next.svg");
+}
+
+#testi-next:hover{
+    background-image: url("./next-hover.svg");
+}
+
+
 
 
