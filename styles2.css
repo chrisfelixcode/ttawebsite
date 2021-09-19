@@ -5,6 +5,8 @@
   --light: #999999;
   --light-two: #FAFAFA;
   --light-three: #666666;
+
+  --light-one:  #E5E5E5;
   
 }
 
@@ -20,7 +22,7 @@
 
 body{
     font-family: 'Ubuntu', sans-serif;
-    background-color: var(--light-two);
+    background-color: #ffffff;
     margin: 0px;
    
 }
@@ -144,8 +146,12 @@ li{
     width: 80%;
 }
 
+
 #section-five{
     position: relative;
+    background-color: var(--light-two);
+    margin-bottom: 0px;
+    padding-bottom: 25px;
 }
 
 #section-five .dot-pattern{
@@ -183,6 +189,7 @@ li{
     line-height: 150% ;
     color: var(--light-three) ;
 }
+
 
 .article-and-cards .article h3{
  color: var(--light-three);
