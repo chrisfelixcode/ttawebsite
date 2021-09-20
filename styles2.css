@@ -10,6 +10,33 @@
   
 }
 
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--secondary); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: var(--secondary); 
+}
+
+
+
+
+
 @media screen and (min-width: 375px) and (min-width: 2048px) {
     .flex-section{
         flex-direction: column;
@@ -172,14 +199,7 @@ li{
     left: 50px;
 }
 
-.card p{
-    font-family: Ubuntu;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 150%;
-    color: var(--light);
-}
+
 
 .article-text{
     font-family: Ubuntu;
@@ -193,6 +213,15 @@ li{
 
 .article-and-cards .article h3{
  color: var(--light-three);
+}
+
+.card p{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--light);
 }
 
 .cards {
@@ -322,9 +351,9 @@ li{
 
 .testimonial-profile{
     position: absolute;
-    width: 70px;
     top: -35px;
     left: 20px;
+    width: 70px;
     border-radius: 45px;
 }
 
