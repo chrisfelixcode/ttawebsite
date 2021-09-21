@@ -25,6 +25,37 @@
  
     }
 
+    #main-nav{
+        flex-wrap: wrap;
+    }
+
+    #main-nav .nav-branding{
+        text-align: center;
+        
+        width: 100%;
+    }
+
+    #main-nav .nav-branding img{
+        margin: 0px auto;
+    }
+
+    #main-nav .nav-branding{
+        width: 100%;
+        margin: 0px;
+    }
+
+    #main-nav .nav-links{
+        width: 100%;
+        text-align: center;
+        flex-wrap: wrap;
+        padding: 20px 0px;
+    }
+
+
+    #main-nav .nav-links li{
+        width: 100%;
+        margin: 10px auto;
+    }
 
     p {
         word-break: break-word;
