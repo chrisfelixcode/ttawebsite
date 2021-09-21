@@ -1,6 +1,5 @@
 $(document).ready(function () {
-
-    console.log("itemz", $('.items').slick({
+    $('.items').slick({
         dots: true,
         infinite: true,
         speed: 800,
@@ -12,8 +11,8 @@ $(document).ready(function () {
             {
                 breakpoint: 1024,
                 settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
                     infinite: true,
                     dots: true
                 }
@@ -31,10 +30,17 @@ $(document).ready(function () {
                     slidesToShow: 1,
                     slidesToScroll: 1
                 }
+            },
+            {
+                breakpoint: 360,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
             }
 
         ]
-    }));
+    });
 
 
     document.getElementById('testi-prev').addEventListener("click", () => {

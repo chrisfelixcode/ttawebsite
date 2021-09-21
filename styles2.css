@@ -5,9 +5,86 @@
   --light: #999999;
   --light-two: #FAFAFA;
   --light-three: #666666;
-
   --light-one:  #E5E5E5;
-  
+}
+
+@media screen and (min-width:360px) and (max-width:640px)  { 
+
+
+    html{
+        width: 100% !important;
+    }
+
+    body{
+
+        position: absolute;
+        margin:0px;
+        padding:0px;
+        width: 100% !important;
+ 
+    }
+
+
+    p {
+        word-break: break-word;
+    }
+    .container{
+        margin: 10px 20px !important;
+    }
+
+
+    .card-list-item{
+        width: 100% !important;
+        flex-wrap: wrap;
+        text-align: center !important;
+    }
+
+    .card-list{
+        flex-wrap: wrap;
+        padding: 2px !important;
+        margin: 10px !important;
+        
+    }
+
+    .card-list-item img{
+     
+        position: relative !important;
+        display: block;
+        margin: 15px auto;
+    }
+
+   #section-four .item{
+        width: 100% !important;
+        text-align: center !important;
+
+    }
+
+
+     #section-four .item  h2{
+        font-size: 20px !important;
+    }
+
+      #section-four .item  p{
+          width: 100%;
+      }
+
+      #section-five .item{
+        width: 100% !important;
+      }
+
+      #section-five h2{
+          font-size: 20px !important;
+      }
+
+      #section-five .card{
+          width: 100%;
+      }
+
+      .banner-box h2{
+        font-size: 20px !important;
+      }
+   
+ 
 }
 
 
@@ -37,15 +114,7 @@
 
 
 
-@media screen and (min-width: 375px) and (min-width: 2048px) {
-    .flex-section{
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-    body{
-        background-color: yellow;
-    }
-}
+
 
 body{
     font-family: 'Ubuntu', sans-serif;
@@ -432,6 +501,7 @@ li{
     display: flex;
     list-style: none;
     justify-content: space-around;
+    
     background: #FFFFFF;
     box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.03);
     border-radius: 10px;
