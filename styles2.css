@@ -87,10 +87,12 @@
 
    #section-four .item{
         width: 100% !important;
-        text-align: center !important;
+        
+   
 
     }
 
+ 
 
      #section-four .item  h2{
         font-size: 20px !important;
@@ -115,6 +117,14 @@
       .banner-box h2{
         font-size: 20px !important;
       }
+
+      .image-right-border-radius{
+        width: 100% !important;
+        border-radius: 0px!important;
+        position: relative;
+        background-size: cover;
+ 
+}
    
  
 }
