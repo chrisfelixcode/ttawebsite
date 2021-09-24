@@ -234,7 +234,9 @@
 
 
 
-
+input[type="button"] {
+    outline: none;
+}
 
 
 
