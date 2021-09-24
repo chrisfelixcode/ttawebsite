@@ -12,7 +12,7 @@ for (var i = 0; i < primary_btns.length; i++) {
             var currentBtn = primary_btns[i];
 
             currentBtn.innerHTML = `
-        <span style="z-index: 200; position: relative"> ${currentBtn.innerHTML}</span>
+        <span style="z-index: 1; position: relative"> ${currentBtn.innerHTML}</span>
          <div class="wave-box">
             <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
                 viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
@@ -30,22 +30,31 @@ for (var i = 0; i < primary_btns.length; i++) {
         </div>
     `;
 
-            var box = currentBtn.getElementsByClassName("wave-box")[0];
 
-            box.style.display = 'none'
-
-            currentBtn.addEventListener('mouseover', () => {
+            var showWaves = () => {
 
                 box.style.display = 'block';
                 console.log(document.getElementsByClassName('primary-btn')[i], i)
 
-            })
+            }
 
-            currentBtn.addEventListener('mouseleave', () => {
+            var hideWaves = () => {
 
                 box.style.display = 'none';
                 console.log(document.getElementsByClassName('primary-btn')[i], i)
-            })
+            }
+
+            var box = currentBtn.getElementsByClassName("wave-box")[0];
+
+            box.style.display = 'none'
+
+            currentBtn.addEventListener('mouseover', showWaves)
+
+            currentBtn.addEventListener('touchstart', showWaves)
+
+            currentBtn.addEventListener('mouseleave', hideWaves)
+
+            currentBtn.addEventListener('touchend', hideWaves)
         }
     )();
 }

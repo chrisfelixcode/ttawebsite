@@ -330,8 +330,7 @@ li{
 
 .primary-btn:hover{
     /* border: 1px solid var(--secondary); */
-    background-color: white;
-    
+    background-color: var(--secondary);
     color: var(--primary);
     
 }
