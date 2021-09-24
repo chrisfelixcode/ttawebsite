@@ -54,7 +54,7 @@ for (var i = 0; i < primary_btns.length; i++) {
 
             currentBtn.addEventListener('mouseleave', hideWaves)
 
-            currentBtn.addEventListener('touchend', hideWaves)
+            //currentBtn.addEventListener('touchend', hideWaves)
         }
     )();
 }
