@@ -238,6 +238,9 @@ input[type="button"] {
     outline: none;
 }
 
+*:focus {
+    outline: 0 !important;
+}
 
 
 body{
