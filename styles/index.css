@@ -6,6 +6,12 @@
   --light-two: #FAFAFA;
   --light-three: #666666;
   --light-one:  #E5E5E5;
+
+
+    /* --zzz:rgba(229,190,87, 0.8);
+--re:  rgba(229,190,87,0.7);
+--er: rgba(229,190,87,0.5);
+--sts: rgba(229,190,87,0.3); */
 }
 
 @media screen and (min-width:280px) and (max-width:1024px)  { 
@@ -57,6 +63,38 @@
         margin: 10px auto;
     }
 
+    .banner{
+    height: 250px !important;
+    background-size: 200% !important;
+    background-position: center;
+
+}
+
+.slider-controls{
+    float: none !important;
+    position: relative !important;
+    padding-top: 50px !important;
+}
+
+.items{
+    margin-top: 10px !important;
+}
+
+.testimonial {
+    padding-top: 10px !important ;
+}
+
+.testimonial-article > p {
+    width: 100% !important;
+}
+
+.testimonial-article h2{
+
+    font-size: 20px !important;
+    
+}
+
+
     p {
         word-break: break-word;
     }
@@ -69,12 +107,17 @@
         width: 100% !important;
         flex-wrap: wrap;
         text-align: center !important;
+        box-shadow: 10px 32px 72px rgba(51, 51, 51, 0.03);
+        border-radius: 10px;
+        padding: 0px !important;
     }
 
     .card-list{
         flex-wrap: wrap;
         padding: 2px !important;
         margin: 10px !important;
+        box-shadow: none;
+        border-radius: 0px;
         
     }
 
@@ -86,13 +129,17 @@
     }
 
    #section-four .item{
-        width: 100% !important;
-        
-   
+       position: relative;
+       width: 100% !important;
+
 
     }
 
- 
+    
+    #section-four{
+        padding: 20px 0px !important ;
+        overflow: hidden;
+    }
 
      #section-four .item  h2{
         font-size: 20px !important;
@@ -100,7 +147,19 @@
 
       #section-four .item  p{
           width: 100%;
+          
       }
+
+      #section-four .dot-pattern {
+        bottom: 20px !important;
+    
+    }
+
+    #section-four .ellipse {
+        top: 330px !important;
+        right: -80px !important;
+        left: auto !important;
+}
 
       #section-five .item{
         width: 100% !important;
@@ -120,10 +179,31 @@
 
       .image-right-border-radius{
         width: 100% !important;
-        border-radius: 0px!important;
+        height: 280px !important;
+        border-radius: 0px !important;
         position: relative;
         background-size: cover;
  
+}
+
+.flex-section{
+    gap: 40px !important;
+}
+
+.mobile-welcome{
+    display: inline-block !important;
+    background: var(--secondary);
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-buttons .btn{ 
+    margin: 10px !important;
+}
+
+.photo_slider{
+    display: none !important;
 }
    
  
@@ -190,7 +270,7 @@ li{
     width: 550px;
     height: 550px;
     border-radius: 0px 275px 275px 0px;
-    background-image: url("./AOP_3259\ 1.png");
+    background-image: url("/images/AOP_3259\ 1.png");
     background-repeat: no-repeat;
     overflow: hidden;
 
@@ -229,7 +309,7 @@ li{
 }
 
 .flex-section .learn-more{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 .btn{
@@ -243,14 +323,21 @@ li{
     background-color: var(--primary);
     border: 0px none;
     color: #fff;
-
+    position: relative;
+    overflow: hidden;
     font-family: 'Ubuntu', sans-serif;
 }
 
 .primary-btn:hover{
-    border: 1px solid var(--primary);
+    /* border: 1px solid var(--secondary); */
     background-color: white;
+    
     color: var(--primary);
+    
+}
+
+.primary-btn  span{
+    color: white;
 }
 
 .glass-btn{
@@ -372,7 +459,7 @@ li{
 
 .banner{
     position: relative;
-    background-image: url("./AOP_1147.png");
+    background-image: url("/images/AOP_1147.png");
     height: 545px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -482,8 +569,13 @@ li{
     width: 95%;
 }
 
-.carousel-buttons{
-    float:right;
+.slider-controls{
+    text-align: right;
+
+}
+
+.slider-row{
+    margin-top: 20px;
 }
 
 
@@ -639,16 +731,20 @@ li{
 
 
    .slide_img_01 {
-      background: url('./AOP_3275.png') no-repeat center;
+      background: url('/images/AOP_3275.png') no-repeat center;
       background-size: cover;
       left: 0;
     }
 
     .slide_img_02 {
-      background: url('./AOP_0090_rcref1.jpg') no-repeat center;
+      background: url('/images/AOP_0090_rcref1.jpg') no-repeat center;
       background-size: cover;
       left: 100%
     }
+
+.mobile-welcome{
+    display: none;
+}
 
 .carousel-box{
     background: rgba(16, 13, 4, 0.26);
@@ -677,6 +773,8 @@ li{
 
 
 
+
+
 .photo_slider{
     height: 696px;
 
@@ -694,19 +792,19 @@ li{
 }
 
 #testi-prev{
-    background-image: url("./back.svg");
+    background-image: url("/images/vectors/back.svg");
 }
 
 #testi-prev:hover{
-    background-image: url("./back-hover.svg");
+    background-image: url("/images/vectors/back-hover.svg");
 }
 
 #testi-next{
-    background-image: url("./next.svg");
+    background-image: url("/images/vectors/next.svg");
 }
 
 #testi-next:hover{
-    background-image: url("./next-hover.svg");
+    background-image: url("/images/vectors/next-hover.svg");
 }
 
 
