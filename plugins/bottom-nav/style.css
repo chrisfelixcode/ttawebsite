@@ -166,15 +166,16 @@
 }
 .menu__contact svg {
   width: 100%;
-  fill: var(--color);
+  fill: var(--secondary);
 }
 .menu__contact a {
+  text-decoration: none;
   flex: 1 1 30%;
   padding: 5px;
   margin: 5px;
   border-radius: 8px;
   background: var(--neutral);
-  color: var(--color);
+  color: var(--secondary);
   text-align: center;
   font-size: 14px;
   font-weight: bold;
