@@ -21,10 +21,10 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: linear-gradient(to right, var(--color-light), var(--color-dark));
+  background: linear-gradient(to right, var(--secondary), var(--primary));
   padding: 10px 20px;
   border-radius: 28px;
-  box-shadow: 0 2px 40px -10px var(--color);
+  box-shadow: 0 2px 40px -10px var(--secondary);
   color: var(--light);
   font-size: 16px;
   white-space: nowrap;
