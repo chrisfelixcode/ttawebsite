@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Josefin+Sans:700");
 :root {
   --dark: #333;
-  --light: #fff;
+  --light-b-nav: #fff;
   --neutral: #f6f6f6;
   --neutral-dark: #d1d1d1;
   --color: #5607d7;
@@ -25,7 +25,7 @@
   padding: 10px 20px;
   border-radius: 28px;
   box-shadow: 0 2px 40px -10px var(--secondary);
-  color: var(--light);
+  color: var(--light-b-nav);
   font-size: 16px;
   white-space: nowrap;
   position: fixed;
@@ -49,8 +49,8 @@
 .menu__button div div {
   display: table;
   height: 1px;
-  background: var(--light);
-  box-shadow: 0 4px 0 var(--light), 0 -4px 0 var(--light);
+  background: var(--light-b-nav);
+  box-shadow: 0 4px 0 var(--light-b-nav), 0 -4px 0 var(--light-b-nav);
 }
 
 .menu__overlay {
@@ -67,7 +67,7 @@
   --z: 0;
   display: block;
   width: 100%;
-  background: var(--light);
+  background: var(--light-b-nav);
   padding-bottom: 15px;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -131,7 +131,7 @@
 .menu__header button div {
   width: 15px;
   height: 3px;
-  background: var(--light);
+  background: var(--light-b-nav);
   position: relative;
   transform: rotate(5.5rad);
 }
@@ -139,7 +139,7 @@
   content: "";
   width: 3px;
   height: 15px;
-  background: var(--light);
+  background: var(--light-b-nav);
   position: absolute;
   top: 50%;
   left: 50%;
