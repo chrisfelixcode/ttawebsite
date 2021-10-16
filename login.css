@@ -1,0 +1,5 @@
+.login-wrapper{
+    display: grid;
+    grid-template-columns: repeat( 1fr, 2);
+    position: fixed;
+}
